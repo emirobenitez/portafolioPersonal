@@ -1,0 +1,116 @@
+
+
+/* ---------------------------------------- */
+/*            FONTS                         */
+/* ---------------------------------------- */
+
+/* import fonts from fonts.css file */ 
+@import url(./fonts.css);
+
+/* css variables */ 
+@import url(./partials/_variables.css);
+
+/* import global styling */ 
+@import url(./partials/_global.css);
+
+/* --- END FONTS AREA --- */
+
+/* ---------------------------------------- */
+/*            MODULOS CSS                   */
+/* ---------------------------------------- */
+
+/* Import Navegacion styling */
+@import url(./modulos/_navegacion.css);
+
+/* -- Import Presentacion Area  -- */
+@import url(./modulos/_div-presentacion.css);
+
+/* -- Import Sobre_mi Area  -- */
+@import url(./modulos/_div_sobre_mi.css);
+
+
+/* -- Import Social Area  -- */
+@import url(./modulos/_div_social.css);
+
+
+
+/* -- Import Skill Area  -- */
+@import url(./modulos/_div_skill.css);
+
+/* -- import FOOTER AREA  -- */
+@import url(./modulos/_footer.css);
+
+
+
+
+
+
+
+/* --- ------------------------------------------------------------ --- */
+/*                           ESTILOS MEDIAS QUERY                       */
+/* --- ------------------------------------------------------------ --- */
+
+
+/* ---------------------------------------- */
+/*          ESCRITORIO GRANDE               */
+/* ---------------------------------------- */
+
+/*
+@media (max-width:1800px) and (min-width:1200px){
+       .container {
+        max-width: 1520px !important;
+    }
+
+    .site-main .about-area .client .about-manage h4{
+        font: normal 500 21px/ 20px var(--roboto);
+    }
+
+    .site-main .about-area .client .about-manage p{
+        font-size: 14px;
+    }
+
+*/
+/* ---------------------------------------- */
+/*          ESCRITORIO MEDIANO              */
+/* ---------------------------------------- */
+
+/*
+@media (max-width:1199px) and (min-width:992px){
+
+.navbar-expand-lg .navbar-collapse {
+}
+
+.collapse:not(.show) {
+    display: none;
+}
+*/
+
+
+/* ---------------------------------------- */
+/*          TABLET                          */
+/* ---------------------------------------- */
+
+/*@media (max-width:991px) and (min-width:768px){*/
+
+
+
+/* ---------------------------------------- */
+/*          MINI TABLET                     */
+/* ---------------------------------------- */
+/*
+@media (max-width:767px) and (min-width:568px){
+
+
+     .columnWellness {
+       /*width: 100% !important;*
+     }
+}
+*/
+
+/* ---------------------------------------- */
+/*          PHONES                          */
+/* ---------------------------------------- */
+
+
+   /* @media (max-width:567px) and (min-width:320px){
+    }*/
