@@ -1,0 +1,704 @@
+
+
+/*----------------------------------------
+Fuentes Material Icons
+----------------------------------------*/
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+/*----------------------------------------
+Estilos CSS General
+----------------------------------------*/
+main{
+
+	/*width: 768px;
+	margin: 0px;*/
+}
+
+.div_menu_principal {
+  display: flex;
+  justify-content: space-between;
+  /*background-color: DodgerBlue;*/
+  margin: 0 0 80px;
+}
+
+.div_menu_principal > div {
+  /*background-color: #f1f1f1;*/
+  width: 100%;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+
+.div_menu_principal .vector {
+	position: absolute;
+	left: 2.17%;
+	right: 29.17%;
+	top: 4.67%;
+	bottom: 16.67%;
+
+	/* Preto/100% */
+	/*background: #464646;*/
+	vertical-align: center;
+
+}
+
+.div_menu_principal .fulano {
+	/* Fulana de Tal */
+
+	position: absolute;
+	width: auto;
+	height: 19px;
+	left: 77px;
+	top: 32.5px;
+
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+
+	/* identical to box height */
+
+	/* Preto/100% */
+	color: #464646;
+
+
+	/* Inside auto layout */
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+	margin: 0px 8px;
+	vertical-align: center;
+
+}
+
+.mail {
+
+/* contacto@fulana.com */
+
+	/*position: absolute;*/
+	width: auto;
+	height: 19px;
+	left: 496px;
+	top: 32.5px;
+
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+
+/* identical to box height */
+
+	/* Preto/100% */
+	color: #464646;
+
+
+	/* Inside auto layout */
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+	margin: 0px 10px;
+
+}
+
+
+/*----------------------------------------
+Area De Presentación
+----------------------------------------*/
+
+.div-presentacion {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	clear: both;
+	margin: 30px 0px;
+}
+
+.div-presentacion > div p h1 {
+
+	margin: 10px;
+	padding: 20px;
+	font-size: 30px;
+
+}
+
+/* Hola, mi nombre es Fulana de Tal y construyo paginas web */
+.div-presentacion .h1_presentacion {
+	position: static;
+	width: 524px;
+	/* height: 52px; */
+	left: 0px;
+	top: 0px;
+
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 26px;
+	line-height: 26px;
+
+	/* Preto/100% */
+	color: #464646;
+	/*margin-bottom: 30px auto;*/
+	/*margin: 24px auto;*/
+
+
+	/* Inside auto layout */
+	flex: none;
+	order: 0;
+	align-self: stretch;
+	flex-grow: 0;
+	margin: 8px 0px;
+}
+
+
+.div-presentacion .p_presentación {
+/* Soy formada en .... lorem ipsum sit amet consectetur y actualmente estoy participando del proyecto Oracle ONE en Alura Latam. */
+
+	position: static;
+	width: 524px;
+	/*height: 52px;*/
+	left: 0px;
+	top: 146px;
+
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 26px;
+
+	/* Preto/100% */
+	color: #464646;
+
+
+	/* Inside auto layout */
+
+	/* margin: 24px auto; */
+
+}
+
+
+.arrow {
+
+	/* Vector */
+
+	position: absolute;
+	/* left: 97.14%; */
+	/* right: -63.81%; */
+	/* top: 50%; */
+	/* bottom: -16.67%; */
+
+	/* Preto/100% */
+	/* background: #464646; */
+	color: #464646;
+	transform: rotate(320deg);
+}
+.arrow:hover {
+	background-color: #000000;
+	color: white;
+
+}
+
+.div-presentacion .ebb{
+	/* unsplash:anAAZ0nrqBY */
+	border: 1px solid black;
+	border-radius: 50%;
+
+	position: static;
+	width: 146px;
+	height: 146px;
+	left: 768px;
+	top: 0px;
+
+
+	/* Inside auto layout */
+	/*flex: none;
+	order: 1;
+	flex-grow: 0;
+	margin: 0px 208px;*/
+}
+
+/*----------------------------------------
+Area Social
+----------------------------------------*/
+
+.div-social {
+	display: flex;
+	margin: 0 88px;
+	/*top: -61px;*/
+
+}
+
+.div-social > ul {
+
+	margin-left: 10px;
+	margin-top: -23px;
+	padding: 10px;
+	font-size: 12px;
+}
+
+.div-social .social {
+	/*width: 50px;*/
+	/*height: 19px;*/
+	/*left: 0px;*/
+	/*top: 2.5px;*/
+	display: flex;
+	/*margin: 0 15px;*/
+
+	font-family: Raleway;
+	font-style: normal;
+	/*font-weight: 500;*/
+	font-size: 12px;
+	/*line-height: 19px;*/
+
+	/* identical to box height */
+
+	/* Preto/100% */
+	color: #464646;
+
+
+	/* Inside auto layout */
+	/*flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: 0px 14px;*/
+}
+
+.div-social .social ul {
+	list-style-type: none;
+	margin: 10px;
+
+	padding: 10px;
+	overflow: hidden;
+	margin-left: 20px;
+	background: red;
+	/*position: absolute;*/
+
+}
+
+.div-social .social li {
+	float: right;
+	display: block;
+	padding: 10px;
+	margin: 10px;
+	text-align: center;
+	/*position: relative;*/
+	/*background-color: green;*/
+}
+
+.div-social .social li a {
+	/*display: block;*/
+	color: #464646;
+
+	/*margin-left: 16px;*/
+	/*padding: 16px;*/
+	text-decoration: none !important;
+}
+
+.div-social .social li a:hover {
+
+	background-color: #000000;
+	color: white;
+
+}
+
+
+/*----------------------------------------*/
+/* AREA SOBRE MI 						  */
+/*----------------------------------------*/
+
+.div_sobre_mi {
+
+	/* Sobre */
+
+	grid-template-columns: auto ;
+	display: grid;
+	gap: 0px; /* Establezca el espacio entre filas y columnas */
+
+
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 38px;
+
+	/* identical to box height */
+
+	/* Azul/10% */
+	background: #EAF2FD;
+
+
+	/*width: 768px;*/
+	height: 467px;
+	/*height: auto;*/
+
+
+}
+
+.div_sobre_mi > h2 p .firma {
+
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-start;
+	padding: 16px;
+}
+
+
+.div_sobre_mi h2 {
+
+	/* Sobre mi */
+
+	position: static;
+	width: 137px;
+	height: 38px;
+	left: 0px;
+	top: 0px;
+
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 38px;
+
+	/* identical to box height */
+
+	/* Preto/100% */
+	color: #464646;
+
+	order: 0;
+	margin: 16px 79px;
+
+}
+
+/* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque velit velit, volutpat semper dignissim dictum, imperdiet ut lacus. Quisque gravida ex a mattis pretium. Suspendisse potenti. Ut semper sagittis ligula et lacinia. Aenean sit amet felis venenatis, egestas metus vitae, aliquet metus. */
+.div_sobre_mi p {
+
+	margin: -3em 2em 2em 5em;
+
+}
+
+.div_sobre_mi .firma {
+	/*float: bottom;*/
+	position: absolute;
+	width: auto;
+	height: 77px;
+	left: 17px;
+	top: 655px;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 19px;
+	color: #464646;
+	order: 1;
+	flex-grow: 0;
+	margin: 16px 87px;
+
+  }
+
+
+/*----------------------------------------
+Area Skills
+----------------------------------------*/
+
+.div_skills {
+	/*display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;*/
+
+	grid-template-columns: auto auto auto;
+	display: grid;
+	gap: 50px; /* Establezca el espacio entre filas y columnas */
+
+	/* Skills */
+
+	position: static;
+	/*width: 57px;
+	height: 26px;
+	left: 355.5px;
+	top: 32px;*/
+
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 26px;
+
+	/* identical to box height */
+	text-align: center;
+
+	/* Preto/100% */
+	color: #464646;
+
+
+	/* Inside auto layout */
+	/*flex: none;
+	order: 0;
+	flex-grow: 0;*/
+	margin: 32px 40px;
+
+
+}
+
+.div_skills > div  {
+
+	/* Skill */
+
+	/* Auto layout */
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: flex-start;
+	padding: 16px;
+
+	position: static;
+	width: 224px;
+	height: 118px;
+	left: 240px;
+	top: 0px;
+
+	/* Preto/branco */
+	background: #FFFFFF;
+
+	/* Inside auto layout */
+	flex: none;
+	order: 1;
+	flex-grow: 1;
+	margin: 30px 16px;
+
+
+
+}
+
+.div_skills h2 {
+  position: absolute;
+  width: 490px;
+  height: 38px;
+  left: 254px;
+  top: 780px;
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 38px;
+  color: #464646;
+  /*flex: max-content;*/
+  /*flex-grow: 1;*/
+  /*order: 0;*/
+  /*flex-grow: 0;*/
+  margin: 5px 4px;
+}
+
+
+
+/*----------------------------------------
+Area Hobbies
+----------------------------------------*/
+
+.div_hobbies {
+	grid-template-columns: auto auto auto;
+	display: grid;
+	gap: 50px; /* Establezca el espacio entre filas y columnas */
+
+
+}
+
+.div_hobbies > div {
+	/* Auto layout */
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+		align-items: flex-start;
+		padding: 16px;
+
+		position: static;
+		width: 224px;
+		height: 118px;
+		left: 240px;
+		top: 0px;
+
+		/* Preto/branco */
+		background: #FFFFFF;
+
+		/* Inside auto layout */
+		flex: none;
+		order: 1;
+		flex-grow: 1;
+		margin: 30px 16px;
+
+		font-family: Raleway;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 22px;
+		line-height: 26px;
+		text-align: center;
+		color: #464646;
+
+}
+
+.div_hobbies h2 {
+
+	/* Sobre mi */
+
+	position: absolute;
+	width: 490px;
+	height: 38px;
+	left: 628px;
+	top: 1288px;
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 38px;
+	color: #464646;
+	/*flex: max-content;*/
+	/*flex-grow: 1;*/
+	/*order: 0;*/
+	/*flex-grow: 0;*/
+	margin: 5px 4px;
+
+}
+
+
+div h3:first-child {
+  color: red;
+  float: bottom;
+  /*margin: 50px 10px 0;*/
+  display: flex;
+  display: absolute;
+  /*padding: 0px 20px;*/
+
+}
+
+/*.div-hobbies-interno {
+background: green;
+
+}*/
+
+/*.div_hobbies > div : h3 {
+	color: red;
+}*/
+
+/*div img:first-child {
+	position: flex;
+	float: top;
+	position: absolute;
+	color: red;
+}*/
+
+
+/*div:first-child {
+  color: blue;
+}*/
+
+/*----------------------------------------
+Area Formación
+----------------------------------------*/
+
+.formacion {
+	grid-template-columns:  auto auto auto;
+	display: grid;
+	gap: 50px; /* Establezca el espacio entre filas y columnas */
+	position: absolute;
+	/* Azul/10% */
+	background: #EAF2FD;
+
+	/* Auto layout */
+	/*display: flex;*/
+	flex-direction: row;
+	align-items: center;
+	padding: 32px;
+
+	/*position: static;*/
+	/*width: 768px;*/
+	width: 100%;
+	height: 291px;
+	left: 0px;
+	/*top: 1332px;*/
+
+	/* Azul/10% */
+	background: #EAF2FD;
+
+	/* Inside auto layout */
+	flex: none;
+	order: 5;
+	align-self: stretch;
+	flex-grow: 0;
+	margin: 0px 0px;
+}
+
+
+.tit-formacion {
+
+	/* Formación académica */
+
+	position: absolute;
+	width: 100%;
+	height: 26px;
+	/*left: 267.5px;*/
+	top: 32px;
+
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 22px;
+	line-height: 26px;
+
+	/* identical to box height */
+	text-align: center;
+
+	/* Preto/100% */
+	color: #464646;
+
+	/* Inside auto layout */
+	/*flex: none;*/
+	order: 0;
+	/*flex-grow: 0;*/
+	/*margin: 32px 220px;*/
+	/*margin: 0 auto;*/
+}
+
+.div-formacion {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 16px;
+  position: absolute;
+  position: relative;
+  width: 224px;
+  height: 118px;
+  /*left: 240px;*/
+  /*top: 0px;*/
+  background: #FFFFFF;
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+  margin: 30px 0px;
+}
