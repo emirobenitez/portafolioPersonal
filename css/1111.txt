@@ -1,0 +1,95 @@
+
+
+
+.div_menu_principal {
+
+
+
+	display: flex;
+	height: auto;
+	font-family: Raleway;
+	margin: 20px auto;
+	padding: 10px;
+	width: auto;
+
+}
+
+.div_menu_principal > div {
+	height: auto;
+	margin: 10px;
+	padding: 20px;
+	font-size: 20px;
+}
+
+.div_menu_principal .vector {
+	position: absolute;
+	left: 2.17%;
+	right: 29.17%;
+	top: 4.67%;
+	bottom: 16.67%;
+
+	/* Preto/100% */
+	/*background: #464646;*/
+	vertical-align: center;
+
+}
+
+.div_menu_principal .fulano {
+	/* Fulana de Tal */
+
+	position: absolute;
+	width: auto;
+	height: 19px;
+	left: 77px;
+	top: 32.5px;
+
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+
+	/* identical to box height */
+
+	/* Preto/100% */
+	color: #464646;
+
+
+	/* Inside auto layout */
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+	margin: 0px 8px;
+	vertical-align: center;
+
+}
+
+.mail {
+
+/* contacto@fulana.com */
+
+	position: absolute;
+	width: auto;
+	height: 19px;
+	left: 496px;
+	top: 32.5px;
+
+	font-family: Raleway;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 16px;
+	line-height: 19px;
+
+/* identical to box height */
+
+	/* Preto/100% */
+	color: #464646;
+
+
+	/* Inside auto layout */
+	flex: none;
+	order: 1;
+	flex-grow: 0;
+	margin: 0px 10px;
+
+}

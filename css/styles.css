@@ -1,4 +1,32 @@
 
+* {
+  box-sizing: border-box;
+}
+
+/* MODELO DE USO DE VARIABLES */
+/*
+:root {
+  --blue: #1e90ff;
+  --white: #ffffff;
+}
+
+body { background-color: var(--blue); }
+
+h2 { border-bottom: 2px solid var(--blue); }
+
+.container {
+  color: var(--blue);
+  background-color: var(--white);
+  padding: 15px;
+}
+
+button {
+  background-color: var(--white);
+  color: var(--blue);
+  border: 1px solid var(--blue);
+  padding: 5px;
+}*/
+
 
 html {
 
@@ -42,7 +70,7 @@ footer, section {
   }
 
 /* -----------------------------------------
-Media Querys Pantalla Grande
+Media Querys Pantalla HOME
 -------------------------------------------- */
 
 @media (max-width:1440px) and (min-width:767px){
@@ -69,7 +97,7 @@ TABLET
 }
 
 /* -----------------------------------------
-TABLET
+MOBILE
 -------------------------------------------- */
 
 @media (max-width:360px) {
