@@ -1,0 +1,96 @@
+.sobre_mi.css {
+    /* grid-template-columns: auto;
+    grid-template-rows: auto ; 
+    display: flex;
+    align-items: center; */
+    
+}
+
+.div_sobre_mi {
+    /* display: block;
+    width: 100%; */
+    /* Auto layout */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding: 64px;
+
+    position: static;
+    width: 1440px;
+    height: 383px;
+    left: 0px;
+    top: 520px;
+
+    /* Azul/10% */
+    background: #EAF2FD;
+
+    /* Inside auto layout */
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 32px 0px;
+    flex: 1 1 100%;
+}
+
+.h2-sobre-mi {
+    /* Sobre mi */
+    align-items:initial !important;
+    position: static;
+    width: 147px;
+    height: 38px;
+    left: 0px;
+    top: 0px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+
+    color: #464646;
+    margin-bottom: 32px;
+    
+
+    
+}
+
+.p-sobre-mi {
+    position: static;
+    width: 751px;
+    /* height: 133px; */
+    left: 0px;
+    top: 54px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+
+    /* Preto/100% */
+    color: #464646;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 16px 0px;
+}
+
+.firma {
+    position: static;
+width: 140px;
+height: 52px;
+left: 0px;
+top: 203px;
+
+background: url(image.png);
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+margin: 16px 0px;
+}

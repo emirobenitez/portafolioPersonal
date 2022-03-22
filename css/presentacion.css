@@ -1,0 +1,190 @@
+/* .box {
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+} */
+
+.presentacion {
+    grid-template-areas:
+        "div-presentacion-h1"
+        "div-presentacion-social"
+        "div-presentacion-img";
+    grid-template-columns: auto;
+    grid-template-rows: auto ; 
+    display: flex;
+    align-items: center;
+    
+}
+
+.div-presentacion {
+    /* background: grey; */
+    display: grid;
+    grid-gap: .2rem;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+    display: inline-block;
+    /* width: 70%; */
+    flex: 1 1 70%;
+    
+}
+
+
+.div-presentacion-img {
+    /* background: yellow; */
+    display: inline-block;
+    display: flex;
+    /* height: 100%; */
+    /* padding: 5px 5px; */
+    /* width: 30%; */
+    flex: 1 1 30%;
+}
+
+.h1_presentacion {
+    position: static;
+    /* width: 751px;
+    height: 122px; */
+    left: 0px;
+    top: 0px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61px;
+
+    /* Preto/100% */
+    color: #464646;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 24px 0px;
+}
+
+.p_presentacion {
+    position: static;
+    width: 751px;
+    height: 52px;
+    left: 0px;
+    top: 146px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+
+    /* Preto/100% */
+    color: #464646;
+
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 24px 0px;
+}
+
+.presentacion__img{
+    display: flex;
+    border: 1px solid black;
+    border-radius: 50%;
+    position: static;
+    /* width: 368px;
+    height: 368px; */
+
+    /* unsplash:anAAZ0nrqBY */
+
+    position: static;
+    /* width: 368px;
+    height: 368px; */
+    left: 768px;
+    top: 0px;
+
+    background: url(.jpg);
+
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    /* margin: 0px 208px; */
+
+}
+
+
+.div-presentacion-social {
+    flex: 1 1 100%;
+    display: flex;
+    margin: 20px;
+}
+
+
+.social {
+
+/* Github */
+display: flex;
+justify-content: space-between;
+justify-content: space-around;
+
+position: static;
+width: 60%;
+height: 19px;
+left: 0px;
+top: 2.5px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19px;
+
+/* identical to box height */
+
+/* Preto/100% */
+color: #464646;
+
+}
+
+
+.social ul {
+	list-style-type: none;
+	overflow: hidden;
+	margin-left: 20px;
+	background: red;
+	/*position: absolute;*/
+
+}
+
+.social li {
+	float: right;
+	display: block;
+	text-align: center;
+}
+
+.social li a {
+	/*display: block;*/
+	color: #464646;
+	text-decoration: none !important;
+}
+
+.social li > a:hover, .arrow:hover{
+
+	background-color: #000000;
+	color: white;
+
+}
+
+	
+.arrow {
+	position: absolute;
+	color: #464646;
+	transform: rotate(320deg);
+}
+/* .arrow:hover {
+	background-color: #000000;
+	color: white;
+} */
