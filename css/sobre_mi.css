@@ -6,7 +6,7 @@
     
 }
 
-.div_sobre_mi {
+.div__sobre__mi {
     /* display: block;
     width: 100%; */
     /* Auto layout */
@@ -33,7 +33,7 @@
     flex: 1 1 100%;
 }
 
-.h2-sobre-mi {
+.sobre__mi--h2 {
     /* Sobre mi */
     align-items:initial !important;
     position: static;
@@ -55,7 +55,7 @@
     
 }
 
-.p-sobre-mi {
+.sobre__mi--p {
     position: static;
     width: 751px;
     /* height: 133px; */

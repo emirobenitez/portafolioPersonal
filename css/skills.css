@@ -26,13 +26,13 @@
     flex: 1 1 100%;
 }
 
-.div_skills {
+.div__skills {
     display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
 
-.h2-skills {
+.skills__h2 {
 
 	align-items: center;
     width: 100%;
@@ -48,7 +48,7 @@
     margin: 32px 0px;
 }
 
-.div-skills-interno {
+.div__skills--interno {
     /* Auto layout */
     display: flex;
     flex-direction: column;
@@ -72,7 +72,7 @@
     margin: 0px 16px;
 }
 
-.img-skills {
+.skills__img {
     position: static;
     width: 24px;
     height: 37px;

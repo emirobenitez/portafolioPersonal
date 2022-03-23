@@ -30,13 +30,13 @@ AREA DE FORMACION
     /* flex: 1 1 100%; */
 }
 
-.div_formacion {
+.formacion__div {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
 
-.tit-formacion {
+.formacion__titulo {
 	position: static;
 	width: 100vw;
 	height: 38px;
@@ -88,12 +88,12 @@ AREA DE FORMACION
 	margin: 8px 0px;
 }
 
-.div-formacion-interno {
+.formacion__div--interno {
 	flex-direction: column;
 	justify-content: center;
 }
 
-.img-formacion {
+.formacion__img {
 	/* image 8 */
 	position: static;
 	width: 368px;
@@ -110,7 +110,7 @@ AREA DE FORMACION
 	margin: 0px 10px;
 }
 
-.h2-formacion {
+.formacion__h2 {
 	/* Análisis de datos */
 
 	position: static;
@@ -132,7 +132,7 @@ AREA DE FORMACION
 
 }
 
-.p-formacion {
+.formacion__p {
 	/* 2019 - Alura */
 	position: static;
 	/* width: 90px; */
