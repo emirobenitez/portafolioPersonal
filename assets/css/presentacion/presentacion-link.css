@@ -1,0 +1,22 @@
+.presentacion__link {
+    color: #808080;
+    margin-right: 2.25rem;
+    text-decoration: none;
+    text-transform: lowercase;
+    
+}
+
+.presentacion__link.activo {
+    color: #333333;
+    font-weight: bold;
+}
+
+.presentacion__link:hover {
+    text-decoration: underline;
+}
+
+.arrow {
+	position: absolute;
+	color: #464646;
+	transform: rotate(320deg);
+}

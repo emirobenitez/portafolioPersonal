@@ -1,0 +1,39 @@
+.divMenuPrincipal {
+    /* order: 2; */
+    /* align-items: center; */
+    background: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+@media only screen and (max-width: 1910px){
+
+
+}
+
+@media only screen and (max-width: 768px){
+
+    .divMenuPrincipal {
+        
+
+    }
+
+}
+
+
+@media only screen and (max-width: 360px){
+
+    .divMenuPrincipal {
+        /* background: #f9f9f9;
+        display: flex;
+        justify-content: space-between; */
+        padding: 0px;
+        
+    }
+
+
+}
+

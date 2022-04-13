@@ -1,0 +1,62 @@
+.contacto {
+	display: grid;
+	
+	grid-template-columns: 1fr 2fr;
+	grid-template-rows: 1fr;
+	grid-column: star-line;
+	aling-content: center;
+	aling-items: center;
+	
+
+}
+
+
+@media only screen and (max-width: 1910px){
+
+
+}
+
+
+@media only screen and (max-width: 768px){
+
+    .contacto {
+                
+        display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 32px;
+
+		position: static;
+		width: 768px;
+		height: 637px;
+        background: #EAF2FD;
+    }
+
+  
+
+
+}
+
+
+@media only screen and (max-width: 360px){
+
+	.contacto {
+                
+        display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 32px;
+
+		width: 360px;
+		height: 574px;
+        background: #EAF2FD;
+    }
+
+  
+
+
+}
+
+
+
+

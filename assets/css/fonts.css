@@ -1,0 +1,27 @@
+
+
+
+ @font-face {
+    font-family: "Raleway";
+    src: url("../fonts/Raleway/Raleway-Regular.eot");
+    src: url("../fonts/Raleway/Raleway-Regular.eot?#iefix") format("embedded-opentype"),
+         url("../fonts/Raleway/Raleway-Regular.woff") format("woff"),
+         url("../fonts/Raleway/Raleway-Regular.woff") format("woff-variantions"),
+         url("../fonts/Raleway/Raleway-Regular.ttf") format("truetype"),
+         url("../fonts/Raleway/Raleway-Regular.svg#Raleway") format("svg");
+         font-weight: normal;
+    font-style: normal;
+} 
+
+/*
+@font-face {
+  font-family: "Chalet";
+  src: url("../fonts/Chalet/Chalet.eot");
+  src: url("../fonts/Chalet/Chalet.eot?#iefix") format("embedded-opentype"),
+       url("../fonts/Chalet/Chalet.woff") format("woff"),
+       url("../fonts/Chalet/Chalet.ttf") format("truetype"),
+       url("../fontsChalet/Chalet.svg#Chalet") format("svg");
+       font-weight: normal;
+  font-style: normal;
+}
+*/

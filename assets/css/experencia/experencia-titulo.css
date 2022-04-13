@@ -1,0 +1,50 @@
+.experencia__titulo {
+    height: 47px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px; 
+    text-align: center;
+    color: #464646;
+    margin: 32px 0px;
+}
+
+
+
+@media only screen and (max-width: 1910px){
+    .experencia__titulo {
+
+    }
+
+
+}
+
+@media only screen and (max-width: 768px){
+    
+    .experencia__titulo {
+
+    }
+    
+
+}
+
+
+@media only screen and (max-width: 360px){
+
+    .experencia__titulo {
+
+        height: 26px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;
+
+        text-align: center;
+
+        color: #464646;
+
+    }
+
+}

@@ -1,0 +1,57 @@
+.sobreMi__titulo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+
+    color: #464646;
+}
+
+
+
+
+@media only screen and (max-width: 1910px){
+    .sobreMi__titulo {
+        /* margin: 24px 0px; */
+    }
+
+
+}
+
+@media only screen and (max-width: 768px){
+    .sobreMi__titulo {
+     
+        width: 524px;
+        height: 52px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;
+        color: #464646;
+
+    }
+
+}
+
+
+@media only screen and (max-width: 360px){
+
+    .sobreMi__titulo {
+
+        /* width: 94px; */
+        height: 26px;
+
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;
+        color: #464646;
+        margin: 16px 0px;
+        
+    }
+
+
+} 

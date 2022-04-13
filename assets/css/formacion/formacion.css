@@ -1,0 +1,44 @@
+.formacion {
+    background: #EAF2FD;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 54px;
+}
+
+
+@media only screen and (max-width: 1910px){
+
+    .formacion {
+        /* width: *; */
+    }
+
+
+}
+
+@media only screen and (max-width: 768px){
+
+    .formacion {
+        width: 768px;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 360px){
+
+    .formacion {
+        /* width: 360px;
+        display: grid;
+        grid-template-columns: 1fr  ;
+        grid-template-rows: 1fr 1fr 1fr ;
+        grid-gap: 5px;  */
+        width: 360px;
+        height: 661px;
+    }
+
+
+}

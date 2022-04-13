@@ -1,0 +1,44 @@
+.experencia {
+    /* background: #EAF2FD; */
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+
+
+
+@media only screen and (max-width: 1910px){
+
+    .experencia {
+
+        padding-bottom: 54px;
+
+    }
+
+
+}
+
+@media only screen and (max-width: 768px){
+    
+    .experencia {
+        
+
+    }
+    
+
+}
+
+
+@media only screen and (max-width: 360px){
+
+    .experencia {
+        width: 360px;
+        height: 202px;
+        
+    }
+
+}

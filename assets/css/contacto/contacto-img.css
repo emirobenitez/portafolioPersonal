@@ -1,0 +1,46 @@
+.contacto__img {	
+	
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    
+    width: 464px;
+    height: 595px;
+    
+    background-image: url(../../images/telephone.png) ;
+    background-repeat: no-repeat;
+    background-size: 464px auto;
+    border-radius: 0px;
+    border: solid 1px #0000ff;
+    
+    /* background: green; */
+}
+
+
+
+
+@media only screen and (max-width: 768px){
+
+    .contacto__img {
+                
+        display: none;
+        
+    }
+
+  
+
+
+}
+
+
+@media only screen and (max-width: 360px){
+
+
+}
+
+@media only screen and (max-width: 1910px){
+
+    
+
+
+}

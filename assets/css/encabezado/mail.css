@@ -1,0 +1,45 @@
+.divMenuPrincipal__mail {
+    order: 1;
+    -webkit-order: 1;
+    padding: 21px 0px;
+    height: 19px;
+    margin: 15px 0px;
+} 
+
+
+
+@media only screen and (max-width: 768px){
+    
+    .divMenuPrincipal__mail {
+        
+
+    }
+
+}
+
+
+@media only screen and (max-width: 360px){
+
+    .divMenuPrincipal__mail {
+        width: auto;
+        height: 16px;
+        /* left: 204px;
+        top: 20px; */
+
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+
+        color: #464646;
+
+    }
+
+
+}
+
+@media only screen and (max-width: 1910px){
+
+
+}

@@ -1,0 +1,47 @@
+.divMenuPrincipal__vector {
+    order: 0;
+    -webkit-order: 0;
+    padding: 21px 0px;
+    height: 19px;
+    align-items: initial;
+    margin: auto 0px;
+    /* width: 1%; */
+}
+
+
+
+@media only screen and (max-width: 768px){
+    
+    .divMenuPrincipal__vector {
+        
+
+    }
+
+}
+
+
+@media only screen and (max-width: 360px){
+
+    .divMenuPrincipal__vector {
+        /* left: 4.17%;
+        right: 29.17%;
+        top: 16.67%;
+        bottom: 16.67%; */
+        order: 0;
+        -webkit-order: 0;
+        padding: 21px 0px;
+        height: 19px;
+        align-items: initial;
+        margin: auto 0px;
+        width: 5%;
+        display: flex;
+
+    }
+
+
+}
+
+@media only screen and (max-width: 1910px){
+
+
+}

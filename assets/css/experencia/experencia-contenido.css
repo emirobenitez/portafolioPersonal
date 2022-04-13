@@ -1,0 +1,44 @@
+.experencia__contenido {
+    background: #f5f5f5;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5rem 0 0 5rem;
+}
+
+.experencia__codigo__secreto--caja3 {
+	display:flex;
+
+}
+
+
+
+
+
+@media only screen and (max-width: 1910px){
+
+
+}
+
+@media only screen and (max-width: 768px){
+    
+    .experencia__contenido {
+        width: 704px;
+        margin: 0px 0px 0px 0px;
+        padding: 0 0px 0px 31px;
+
+    }
+    
+
+}
+
+
+@media only screen and (max-width: 360px){
+
+    .experencia__contenido {
+        width: 360px;
+        margin: 0px 0px 0px 0px;
+        padding: 0 0px 0px 31px;
+
+    }
+
+}

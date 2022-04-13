@@ -1,0 +1,74 @@
+.presentacion__img {
+    display: inline-block;
+    display: flex;
+    
+    
+}
+
+.presentacion__img-foto {
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+
+@media only screen and (max-width: 1910px){
+
+    .presentacion__img {
+        width: 368px;
+        height: 368px;
+        background-image: url(../../images/ebb.jpg);
+        background-repeat: no-repeat;
+        background-size: 368px 368px;
+        border: 1px solid black;
+        border-radius: 50%;
+    }
+
+}
+
+@media only screen and (max-width: 768px){
+    .presentacion__img {
+        /* display: inline-block; */
+        display: flex;
+        width: 146px;
+        height: 146px;
+        background-image: url(../../images/ebb.jpg);
+        background-repeat: no-repeat;
+        background-size: 146px 146px;
+        border: 1px solid black;
+        border-radius: 50%;
+        margin: 0px -25px;
+    
+    }
+
+    /* .presentacion__img-foto {
+     
+        width: 146px;
+        height: 146px;
+        margin: 5px 0px 0px -9px;
+
+    } */
+
+
+}
+
+
+
+
+@media only screen and (max-width: 360px){
+
+    .presentacion__img {
+        display: inline-block;
+        display: flex;
+        width: 98px;
+        height: 98px;
+        background-image: url(../../images/ebb.jpg);
+        background-repeat: no-repeat;
+        background-size: 98px 98px;
+        border: 1px solid black;
+        border-radius: 50%;
+        /* margin: 0px -18px; */
+        order: 1;
+    
+    }
+
+} 

@@ -1,0 +1,139 @@
+.formacion__contenido {
+    /* justify-content: space-between; */
+    margin-inline-start: 101px;
+}
+.formacion__items {
+    justify-content: space-between;
+}
+
+
+.formacion__contenido--interno {
+    justify-content: center;
+}
+
+.formacion__contenido--img {
+    flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 16px;
+    background: white;
+    width: 328px;
+}
+
+.formacion__contenido--titulo {
+    flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 0 16px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #464646;
+}
+
+.formacion__contenido--parrafo {
+    flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 0 16px;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+}
+
+@media only screen and (max-width: 1910px){
+
+
+}
+
+@media only screen and (max-width: 768px){
+    
+    .formacion__contenido--img {
+        width: 177px;
+    }
+
+    .formacion__contenido--titulo {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        color: #464646;
+
+    }
+
+    .formacion__contenido--parrafo {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        color: #464646;
+
+
+    }
+
+}
+
+
+@media only screen and (max-width: 360px){
+
+        
+    .formacion__contenido--interno {
+    
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+
+    }
+
+    .formacion__contenido--img {
+        
+        width: 296px;
+        height: 118px;
+        margin: 0px -84px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .formacion__contenido--titulo {
+        
+        height: 19px;
+        left: 0px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+
+        color: #464646;
+        margin: 0px -102px;
+
+    }
+
+    .formacion__contenido--parrafo {
+        
+        height: 16px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+
+        color: #464646;
+        margin: 0px -102px;
+
+    }
+
+
+}
+

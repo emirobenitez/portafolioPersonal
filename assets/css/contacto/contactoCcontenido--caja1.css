@@ -1,0 +1,159 @@
+
+
+.contacto__contenido--caja1 {
+
+	position: static;
+	width: 141px;
+	height: 38px;
+	left: 0px;
+	top: 0px;
+
+	font-family: 'Raleway';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 38px;
+
+	/* identical to box height */
+
+	/* Preto/100% */
+	color: #464646;
+
+
+	/* Inside auto layout */
+	flex: none;
+	order: 0;
+	flex-grow: 0;
+	margin: 8px 0px;
+	
+}
+
+
+
+.contacto__titulo {
+
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 0 32px;
+	margin: 0px 0px; 
+    height: 52px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    color: #464646;
+
+}
+
+.contacto__parrafo1 {
+    
+    width: 368px;
+    height: 19px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+	padding: 0 0 0 32px;
+}
+
+.contacto__parrafo2 {
+    
+    width: 568px;
+    height: 19px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+	margin: 8px 0px;
+	padding: 0 0 0 32px;
+
+}
+
+
+
+
+@media only screen and (max-width: 768px){
+
+    .contacto__titulo {
+                
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;
+        color: #464646;
+        
+    }
+
+    .contacto__parrafo1, .contacto__parrafo2 {
+
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #464646;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 1910px){
+
+    
+}
+
+@media only screen and (max-width: 360px){
+
+    
+    .contacto__titulo {
+
+        width: 97px;
+        height: 35px;
+                
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;
+        color: #464646;
+        margin-left: -28px;
+        
+    }
+
+    .contacto__parrafo1 {
+
+        width: 296px;
+        height: 31px;
+
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        margin-left: -28px;
+    }
+
+    .contacto__parrafo2 {
+
+        width: 341px;
+        height: 76px;
+
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        margin-left: -28px;
+    }
+
+
+}
+
+

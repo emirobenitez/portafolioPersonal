@@ -1,0 +1,44 @@
+.juego__interactivo {
+    background: #EAF2FD;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 54px;
+}
+
+
+
+@media only screen and (max-width: 768px){
+
+    .juego__interactivo {
+                
+        
+        
+    }
+
+  
+
+
+}
+
+
+@media only screen and (max-width: 360px){
+
+    .juego__interactivo {
+        
+
+    }
+
+
+}
+
+@media only screen and (max-width: 1910px){
+
+    .juego__interactivo {
+
+
+    }
+
+
+}

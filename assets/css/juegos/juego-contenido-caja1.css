@@ -1,0 +1,182 @@
+.juego__contenido--caja1 {
+    
+    display: flex;
+    flex-direction: column;
+    margin: 0px 15px;
+    justify-content:center;
+
+
+}
+
+.juego__titulo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    margin: 5px;
+    color: #464646;
+}
+
+.juego__parrafo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+}
+
+.juego__botones {
+    width: 237px;
+    height: 51px;
+}
+
+
+
+.juego__btn--repositorio {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+
+    position: static;
+    width: 105px;
+    height: 51px;
+    left: 132px;
+    top: 0px;
+
+}
+
+.juego__btn--demo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    position: static;
+    width: 109px;
+    height: 51px;
+    left: 132px;
+    top: 0px;
+    background: #2A7AE4;
+    color: white;
+
+}
+
+@media only screen and (max-width: 1910px){
+
+
+}
+
+@media only screen and (max-width: 768px){
+
+    .juego__contenido--caja1 {
+        width: 704px;
+        /* height: 320px; */
+        margin: 16px 0px;
+        order: 1;
+        margin: 16px -56px;
+        
+    }
+
+
+}
+
+
+@media only screen and (max-width: 360px){
+
+    .juego__contenido--caja1 {
+    
+        display: flex;
+        flex-direction: column;
+        margin: 0px -74px;
+        justify-content:center;
+    
+    
+    }
+    
+    .juego__titulo {
+        /* width: 248px; */
+        height: 26px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        color: #464646;
+        margin: 5px 20px;
+    }
+    
+    .juego__parrafo {
+        /* width: 296px; */
+        height: 16px;
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        margin: 5px 20px;
+
+    }
+    
+    .juego__botones {
+        width: 237px;
+        height: 51px;
+        margin: 2px 0px 0px 21px;
+    }
+    
+    
+    
+    .juego__btn--repositorio {
+        border-radius: 5%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 16px;
+    
+        position: static;
+        width: 105px;
+        height: 40px;
+        margin-right: 10px;
+
+        font-family: 'Raleway';
+        font-style: normal;
+        /* font-weight: 600; */
+        font-size: 14px;
+        line-height: 16px;
+
+        
+    
+    }
+    
+    .juego__btn--demo {
+        border-radius: 5%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 16px;
+        position: static;
+        width: 105px;
+        height: 40px;
+        left: 132px;
+        top: 0px;
+        
+
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 16px;
+
+        color: #2A7AE4;
+        color: white;
+    
+    }
+
+
+}
+

@@ -1,0 +1,9 @@
+.presentacion__item {
+    list-style: none;
+    
+}
+
+.presentacion__item:last-child .presentacion__link {
+    margin-right: 0;
+    
+}

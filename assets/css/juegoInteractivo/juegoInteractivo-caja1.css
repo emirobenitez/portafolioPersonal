@@ -1,0 +1,124 @@
+
+.juego__interactivo--caja1 {
+    
+    display: flex;
+    flex-direction: column;
+    margin: 0px 15px;
+    justify-content:center;
+
+
+}
+
+.juego__interactivo--titulo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    /* margin: 5px; */
+    color: #464646;
+}
+
+.juego__interactivo--parrafo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #464646;
+}
+
+
+.juegoInteractivo__btn--repositorio {
+    width: 95px;
+    height: 38px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.juegoInteractivo__btn--ver {
+    width: 95px;
+    height: 38px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    background: #2A7AE4;
+    margin: 0px 3px;
+}
+
+
+
+@media only screen and (max-width: 1910px){
+
+    .juego__interactivo--titulo {
+        margin: 5px;
+        
+    }
+
+        
+    .juego__interactivo--parrafo {
+        
+    }
+
+    
+    .juego__interactivo--caja3 {
+        width: 237px;
+        height: 51px;
+        margin-top: 15px;
+    }
+    
+}
+
+@media only screen and (max-width: 768px){
+
+    .juego__interactivo--caja1 {
+                
+        order: 2;
+        
+    }
+
+}
+
+
+@media only screen and (max-width: 360px){
+
+    .juego__interactivo--titulo {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 19px;
+        color: #464646;
+        width: 296px;
+        height: 24px;
+        margin: 5px 0px 5px -66px;
+    }
+
+    
+    .juego__interactivo--parrafo {
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        color: #464646;
+        width: 296px;
+        height: 16px;
+        margin: 5px 0px 5px -66px;
+    }
+
+    .juego__interactivo--caja3 {
+        width: 237px;
+        height: 51px;
+        margin: 5px 0px 5px -66px;
+
+    }
+
+
+}
+

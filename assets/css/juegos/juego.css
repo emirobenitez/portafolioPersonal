@@ -1,0 +1,46 @@
+/* .juego {
+    background: #EAF2FD;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+
+
+
+@media only screen and (max-width: 1910px){
+
+    .juego {
+
+        padding-bottom: 54px;
+
+    }
+
+
+}
+
+@media only screen and (max-width: 768px){
+    
+    .juego {
+        
+
+    }
+    
+
+}
+
+
+@media only screen and (max-width: 360px){
+
+    .juego {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 32px;
+       
+    }
+
+} */

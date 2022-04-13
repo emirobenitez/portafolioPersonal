@@ -1,0 +1,41 @@
+
+.juego__contenido {
+    background: #f5f5f5;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5rem 0 0 5rem;
+    
+}
+
+.juego__botones {
+	display:flex;
+
+}
+
+
+@media only screen and (max-width: 1910px){
+
+
+}
+
+
+@media only screen and (max-width: 768px){
+
+
+}
+
+
+@media only screen and (max-width: 360px){
+
+    .juego__contenido {
+
+        width: 360px;
+        height: 202px;
+        margin: 30px auto;
+        
+    }
+
+
+}
+
+

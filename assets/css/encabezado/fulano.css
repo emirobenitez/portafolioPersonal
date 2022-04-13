@@ -1,0 +1,45 @@
+.divMenuPrincipal__fulano {
+    order: 0;
+    -webkit-order: 0;
+    padding: 21px 0px;
+    height: 19px;
+    margin: 15px 0px;
+    /* width: 5%; */
+}
+
+
+
+@media only screen and (max-width: 768px){
+
+    .divMenuPrincipal__fulano {
+
+
+    }
+
+}
+
+
+@media only screen and (max-width: 360px){
+
+    .divMenuPrincipal__fulano {
+        width: 137px;
+        height: 19px;
+        /* left: 32px;
+        top: 2.5px; */
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 19px;
+        color: #464646;
+
+
+    }
+
+
+}
+
+@media only screen and (max-width: 1910px){
+
+
+}

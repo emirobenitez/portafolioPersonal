@@ -1,0 +1,55 @@
+.presentacion__titulo {
+    font-size: 1.4275rem; 
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 61px;
+    color: #464646;
+   
+}
+
+
+@media only screen and (max-width: 1910px){
+    .presentacion__titulo {
+        margin: 24px 0px;
+    }
+
+
+}
+
+@media only screen and (max-width: 768px){
+    .presentacion__titulo {
+     
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;
+        margin: 8px 0px;
+        width: 524px;
+        height: 52px;
+
+    }
+
+}
+
+
+@media only screen and (max-width: 360px){
+
+    .presentacion__titulo {
+
+        width: 328px;
+        height: 52px;
+
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;
+        color: #464646;
+        margin: 0px 38px 31px -103px;
+    }
+
+
+} 

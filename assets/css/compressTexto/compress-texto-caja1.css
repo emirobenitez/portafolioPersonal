@@ -1,0 +1,60 @@
+
+.compress__texto--caja1 {
+    width: 752px;
+    height: 406px;
+    left: 0px;
+    top: 0px;
+
+    background-image: url(../../images/codigo-secreto.png);
+    background-repeat: no-repeat;
+    background-size: 752px 406px;
+    border-radius: 0px;
+
+    border: solid 1px #0000ff;
+    display: flex;
+    display:inline-flex;
+    width: 50%;
+
+}
+
+@media only screen and (max-width: 1910px){
+
+
+}
+
+
+@media only screen and (max-width: 768px){
+
+    .compress__texto--caja1 {
+                
+        width: 704px;
+        height: 320px;
+        background-image: url(../../images/codigo-secreto.png);
+        background-repeat: no-repeat;
+        background-size: 704px 320px;
+        border-radius: 0px;
+        
+    }
+
+
+
+
+}
+
+
+@media only screen and (max-width: 360px){
+
+    .compress__texto--caja1 {
+                
+        width: 296px;
+        height: 144px;
+        background-image: url(../../images/codigo-secreto.png);
+        background-repeat: no-repeat;
+        background-size: 296px 144px;
+        border-radius: 0px;
+        margin: 0px 0px 0px -50px;
+    }
+
+
+}
+

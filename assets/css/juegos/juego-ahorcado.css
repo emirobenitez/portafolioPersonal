@@ -1,0 +1,7 @@
+.juego__ahorcado {
+    background: url(../../images/ahorcado.png) no-repeat center/100%  ;
+    background-repeat: no-repeat;
+    background-size: 752px 406px;
+    border-radius: 0px;
+    width: 752px;
+}
